@@ -1,0 +1,172 @@
+2022-04-13 20:45:17,135 INFO    MainThread:39472 [internal.py:wandb_internal():92] W&B internal server running at pid: 39472, started at: 2022-04-13 20:45:17.133923
+2022-04-13 20:45:17,139 INFO    WriterThread:39472 [datastore.py:open_for_write():77] open: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\run-1l9hio1z.wandb
+2022-04-13 20:45:17,153 DEBUG   SenderThread:39472 [sender.py:send():235] send: header
+2022-04-13 20:45:17,153 DEBUG   SenderThread:39472 [sender.py:send():235] send: run
+2022-04-13 20:45:17,827 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: check_version
+2022-04-13 20:45:17,832 INFO    SenderThread:39472 [dir_watcher.py:__init__():169] watching files in: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files
+2022-04-13 20:45:17,833 INFO    SenderThread:39472 [sender.py:_start_run_threads():812] run started: 1l9hio1z with start time 1649853911
+2022-04-13 20:45:17,833 DEBUG   SenderThread:39472 [sender.py:send():235] send: summary
+2022-04-13 20:45:17,834 INFO    SenderThread:39472 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-13 20:45:17,836 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: check_version
+2022-04-13 20:45:18,841 INFO    Thread-11 :39472 [dir_watcher.py:_on_file_created():217] file/dir created: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\wandb-summary.json
+2022-04-13 20:45:19,951 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: run_start
+2022-04-13 20:45:20,014 DEBUG   HandlerThread:39472 [meta.py:__init__():37] meta init
+2022-04-13 20:45:20,015 DEBUG   HandlerThread:39472 [meta.py:__init__():51] meta init done
+2022-04-13 20:45:20,015 DEBUG   HandlerThread:39472 [meta.py:probe():211] probe
+2022-04-13 20:45:20,213 DEBUG   HandlerThread:39472 [meta.py:_setup_git():201] setup git
+2022-04-13 20:45:20,515 DEBUG   HandlerThread:39472 [meta.py:_setup_git():208] setup git done
+2022-04-13 20:45:20,515 DEBUG   HandlerThread:39472 [meta.py:_save_pip():55] save pip
+2022-04-13 20:45:20,517 DEBUG   HandlerThread:39472 [meta.py:_save_pip():69] save pip done
+2022-04-13 20:45:20,517 DEBUG   HandlerThread:39472 [meta.py:probe():249] probe done
+2022-04-13 20:45:20,664 DEBUG   SenderThread:39472 [sender.py:send():235] send: files
+2022-04-13 20:45:20,665 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-13 20:45:20,666 INFO    SenderThread:39472 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-13 20:45:20,672 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 20:45:20,868 INFO    Thread-11 :39472 [dir_watcher.py:_on_file_created():217] file/dir created: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\output.log
+2022-04-13 20:45:20,869 INFO    Thread-11 :39472 [dir_watcher.py:_on_file_created():217] file/dir created: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\requirements.txt
+2022-04-13 20:45:20,871 INFO    Thread-11 :39472 [dir_watcher.py:_on_file_created():217] file/dir created: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\wandb-metadata.json
+2022-04-13 20:45:21,239 DEBUG   SenderThread:39472 [sender.py:send():235] send: telemetry
+2022-04-13 20:45:21,872 INFO    Thread-17 :39472 [upload_job.py:push():137] Uploaded file C:\Users\10194\AppData\Local\Temp\tmpyl7142r9wandb\vzhyg4el-wandb-metadata.json
+2022-04-13 20:45:28,939 INFO    Thread-11 :39472 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\output.log
+2022-04-13 20:45:31,239 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: pause
+2022-04-13 20:45:31,239 INFO    HandlerThread:39472 [handler.py:handle_request_pause():659] stopping system metrics thread
+2022-04-13 20:45:31,408 DEBUG   SenderThread:39472 [sender.py:send():235] send: stats
+2022-04-13 20:45:36,255 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-13 20:45:36,255 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 20:45:49,166 INFO    Thread-11 :39472 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\config.yaml
+2022-04-13 20:45:51,789 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-13 20:45:51,789 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 20:46:08,203 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-13 20:46:08,203 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 20:46:23,717 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-13 20:46:23,717 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 20:46:38,028 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: resume
+2022-04-13 20:46:38,028 INFO    HandlerThread:39472 [handler.py:handle_request_resume():650] starting system metrics thread
+2022-04-13 20:46:38,134 DEBUG   SenderThread:39472 [sender.py:send():235] send: telemetry
+2022-04-13 20:46:38,139 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: partial_history
+2022-04-13 20:46:38,139 DEBUG   SenderThread:39472 [sender.py:send():235] send: telemetry
+2022-04-13 20:46:38,240 DEBUG   SenderThread:39472 [sender.py:send():235] send: exit
+2022-04-13 20:46:38,240 INFO    SenderThread:39472 [sender.py:send_exit():371] handling exit code: 0
+2022-04-13 20:46:38,240 INFO    SenderThread:39472 [sender.py:send_exit():373] handling runtime: 11
+2022-04-13 20:46:38,242 INFO    SenderThread:39472 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-13 20:46:38,243 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:38,244 INFO    SenderThread:39472 [sender.py:send_exit():379] send defer
+2022-04-13 20:46:38,244 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:38,246 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:38,246 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 0
+2022-04-13 20:46:38,246 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:38,246 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-04-13 20:46:38,246 INFO    SenderThread:39472 [sender.py:transition_state():392] send defer: 1
+2022-04-13 20:46:38,247 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:38,247 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 1
+2022-04-13 20:46:38,354 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:38,354 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:38,354 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-04-13 20:46:38,354 INFO    SenderThread:39472 [sender.py:transition_state():392] send defer: 2
+2022-04-13 20:46:38,355 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:38,355 DEBUG   SenderThread:39472 [sender.py:send():235] send: stats
+2022-04-13 20:46:38,355 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:38,355 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 2
+2022-04-13 20:46:38,356 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:38,356 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-04-13 20:46:38,356 INFO    SenderThread:39472 [sender.py:transition_state():392] send defer: 3
+2022-04-13 20:46:38,356 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:38,356 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 3
+2022-04-13 20:46:38,357 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:38,357 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-04-13 20:46:38,357 INFO    SenderThread:39472 [sender.py:transition_state():392] send defer: 4
+2022-04-13 20:46:38,357 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:38,357 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 4
+2022-04-13 20:46:38,358 DEBUG   SenderThread:39472 [sender.py:send():235] send: summary
+2022-04-13 20:46:38,359 INFO    SenderThread:39472 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-13 20:46:38,359 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:38,359 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-04-13 20:46:38,359 INFO    SenderThread:39472 [sender.py:transition_state():392] send defer: 5
+2022-04-13 20:46:38,360 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:38,360 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 5
+2022-04-13 20:46:38,360 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:38,360 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-04-13 20:46:38,471 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:38,742 INFO    Thread-11 :39472 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\wandb-summary.json
+2022-04-13 20:46:38,742 INFO    Thread-11 :39472 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\output.log
+2022-04-13 20:46:38,846 INFO    SenderThread:39472 [sender.py:transition_state():392] send defer: 6
+2022-04-13 20:46:38,847 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:38,847 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:38,847 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 6
+2022-04-13 20:46:38,847 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:38,848 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-04-13 20:46:38,848 INFO    SenderThread:39472 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-13 20:46:38,957 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:39,745 INFO    SenderThread:39472 [dir_watcher.py:_on_file_modified():230] file/dir modified: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\config.yaml
+2022-04-13 20:46:39,746 INFO    SenderThread:39472 [dir_watcher.py:finish():313] scan: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files
+2022-04-13 20:46:39,746 INFO    SenderThread:39472 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\config.yaml config.yaml
+2022-04-13 20:46:39,747 INFO    SenderThread:39472 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\output.log output.log
+2022-04-13 20:46:39,750 INFO    SenderThread:39472 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\requirements.txt requirements.txt
+2022-04-13 20:46:39,755 INFO    SenderThread:39472 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\wandb-metadata.json wandb-metadata.json
+2022-04-13 20:46:39,755 INFO    SenderThread:39472 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\wandb-summary.json wandb-summary.json
+2022-04-13 20:46:39,759 INFO    SenderThread:39472 [sender.py:transition_state():392] send defer: 7
+2022-04-13 20:46:39,759 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:39,760 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:39,760 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 7
+2022-04-13 20:46:39,761 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:39,761 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-04-13 20:46:39,761 INFO    SenderThread:39472 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-13 20:46:39,869 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:39,869 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:39,978 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:39,979 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:40,087 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:40,087 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:40,201 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:40,201 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:40,309 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:40,309 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:40,419 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:40,419 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:40,529 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:40,529 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:40,633 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:40,634 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:40,741 INFO    Thread-19 :39472 [upload_job.py:push():137] Uploaded file d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\config.yaml
+2022-04-13 20:46:40,751 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:40,752 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:40,832 INFO    Thread-20 :39472 [upload_job.py:push():137] Uploaded file d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\output.log
+2022-04-13 20:46:40,841 INFO    Thread-21 :39472 [upload_job.py:push():137] Uploaded file d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\requirements.txt
+2022-04-13 20:46:40,867 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:40,868 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:40,900 INFO    Thread-22 :39472 [upload_job.py:push():137] Uploaded file d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\files\wandb-summary.json
+2022-04-13 20:46:40,986 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:40,986 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:41,095 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:41,095 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:41,110 INFO    Thread-10 :39472 [sender.py:transition_state():392] send defer: 8
+2022-04-13 20:46:41,110 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:41,110 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 8
+2022-04-13 20:46:41,111 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:41,111 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-04-13 20:46:41,202 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:42,231 INFO    SenderThread:39472 [sender.py:transition_state():392] send defer: 9
+2022-04-13 20:46:42,231 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:42,231 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:42,232 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 9
+2022-04-13 20:46:42,232 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:42,232 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-04-13 20:46:42,232 INFO    SenderThread:39472 [sender.py:transition_state():392] send defer: 10
+2022-04-13 20:46:42,232 DEBUG   SenderThread:39472 [sender.py:send():235] send: final
+2022-04-13 20:46:42,233 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: defer
+2022-04-13 20:46:42,233 DEBUG   SenderThread:39472 [sender.py:send():235] send: footer
+2022-04-13 20:46:42,233 INFO    HandlerThread:39472 [handler.py:handle_request_defer():164] handle defer: 10
+2022-04-13 20:46:42,233 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: defer
+2022-04-13 20:46:42,234 INFO    SenderThread:39472 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-04-13 20:46:42,339 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: poll_exit
+2022-04-13 20:46:42,339 DEBUG   SenderThread:39472 [sender.py:send_request():249] send_request: poll_exit
+2022-04-13 20:46:42,339 INFO    SenderThread:39472 [file_pusher.py:join():150] waiting for file pusher
+2022-04-13 20:46:43,797 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: sampled_history
+2022-04-13 20:46:43,798 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: get_summary
+2022-04-13 20:46:43,799 DEBUG   HandlerThread:39472 [handler.py:handle_request():141] handle_request: shutdown
+2022-04-13 20:46:43,799 INFO    HandlerThread:39472 [handler.py:finish():778] shutting down handler
+2022-04-13 20:46:44,250 INFO    WriterThread:39472 [datastore.py:close():281] close: d:\deep_learing_work\Spynet\wandb\run-20220413_204511-1l9hio1z\run-1l9hio1z.wandb
+2022-04-13 20:46:44,703 INFO    SenderThread:39472 [sender.py:finish():1078] shutting down sender
+2022-04-13 20:46:44,703 INFO    SenderThread:39472 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-13 20:46:44,703 INFO    SenderThread:39472 [file_pusher.py:join():150] waiting for file pusher
+2022-04-13 20:46:44,706 INFO    MainThread:39472 [internal.py:handle_exit():82] Internal process exited

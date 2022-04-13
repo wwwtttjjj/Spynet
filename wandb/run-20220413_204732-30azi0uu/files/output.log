@@ -1,0 +1,6 @@
+torch.Size([1, 2, 28, 64]) torch.Size([1, 2, 28, 64])
+torch.Size([1, 2, 56, 128]) torch.Size([1, 2, 56, 128])
+torch.Size([1, 2, 112, 256]) torch.Size([1, 2, 112, 256])
+torch.Size([1, 2, 224, 512]) torch.Size([1, 2, 224, 512])
+torch.Size([1, 2, 448, 1024]) torch.Size([1, 2, 448, 1024])
+[tensor(45.4540, device='cuda:0', grad_fn=<MeanBackward0>), tensor(45.9777, device='cuda:0', grad_fn=<MeanBackward0>), tensor(46.4645, device='cuda:0', grad_fn=<MeanBackward0>), tensor(47.1183, device='cuda:0', grad_fn=<MeanBackward0>), tensor(48.8029, device='cuda:0', grad_fn=<MeanBackward0>)]

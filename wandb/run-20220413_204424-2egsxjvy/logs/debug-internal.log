@@ -1,0 +1,47 @@
+2022-04-13 20:44:33,386 INFO    MainThread:7644 [internal.py:wandb_internal():92] W&B internal server running at pid: 7644, started at: 2022-04-13 20:44:33.385025
+2022-04-13 20:44:33,388 INFO    WriterThread:7644 [datastore.py:open_for_write():77] open: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\run-2egsxjvy.wandb
+2022-04-13 20:44:33,394 DEBUG   SenderThread:7644 [sender.py:send():235] send: header
+2022-04-13 20:44:33,394 DEBUG   SenderThread:7644 [sender.py:send():235] send: run
+2022-04-13 20:44:33,985 DEBUG   HandlerThread:7644 [handler.py:handle_request():141] handle_request: check_version
+2022-04-13 20:44:33,990 INFO    SenderThread:7644 [dir_watcher.py:__init__():169] watching files in: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files
+2022-04-13 20:44:33,990 INFO    SenderThread:7644 [sender.py:_start_run_threads():812] run started: 2egsxjvy with start time 1649853871
+2022-04-13 20:44:33,991 DEBUG   SenderThread:7644 [sender.py:send():235] send: summary
+2022-04-13 20:44:33,992 INFO    SenderThread:7644 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2022-04-13 20:44:33,992 DEBUG   SenderThread:7644 [sender.py:send_request():249] send_request: check_version
+2022-04-13 20:44:34,766 DEBUG   HandlerThread:7644 [handler.py:handle_request():141] handle_request: run_start
+2022-04-13 20:44:34,795 DEBUG   HandlerThread:7644 [meta.py:__init__():37] meta init
+2022-04-13 20:44:34,795 DEBUG   HandlerThread:7644 [meta.py:__init__():51] meta init done
+2022-04-13 20:44:34,795 DEBUG   HandlerThread:7644 [meta.py:probe():211] probe
+2022-04-13 20:44:34,891 DEBUG   HandlerThread:7644 [meta.py:_setup_git():201] setup git
+2022-04-13 20:44:34,998 INFO    Thread-11 :7644 [dir_watcher.py:_on_file_created():217] file/dir created: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\wandb-summary.json
+2022-04-13 20:44:35,032 DEBUG   HandlerThread:7644 [meta.py:_setup_git():208] setup git done
+2022-04-13 20:44:35,032 DEBUG   HandlerThread:7644 [meta.py:_save_pip():55] save pip
+2022-04-13 20:44:35,033 DEBUG   HandlerThread:7644 [meta.py:_save_pip():69] save pip done
+2022-04-13 20:44:35,033 DEBUG   HandlerThread:7644 [meta.py:probe():249] probe done
+2022-04-13 20:44:35,113 DEBUG   SenderThread:7644 [sender.py:send():235] send: files
+2022-04-13 20:44:35,113 DEBUG   HandlerThread:7644 [handler.py:handle_request():141] handle_request: stop_status
+2022-04-13 20:44:35,113 INFO    SenderThread:7644 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2022-04-13 20:44:35,116 DEBUG   SenderThread:7644 [sender.py:send_request():249] send_request: stop_status
+2022-04-13 20:44:35,758 DEBUG   SenderThread:7644 [sender.py:send():235] send: telemetry
+2022-04-13 20:44:35,999 INFO    Thread-11 :7644 [dir_watcher.py:_on_file_created():217] file/dir created: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\wandb-metadata.json
+2022-04-13 20:44:36,000 INFO    Thread-11 :7644 [dir_watcher.py:_on_file_created():217] file/dir created: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\requirements.txt
+2022-04-13 20:44:36,001 INFO    Thread-11 :7644 [dir_watcher.py:_on_file_created():217] file/dir created: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\output.log
+2022-04-13 20:44:36,268 INFO    Thread-17 :7644 [upload_job.py:push():137] Uploaded file C:\Users\10194\AppData\Local\Temp\tmpfx2jgwrtwandb\3kq3cy2y-wandb-metadata.json
+2022-04-13 20:44:50,552 WARNING MainThread:7644 [internal.py:is_dead():387] Internal process exiting, parent pid 41264 disappeared
+2022-04-13 20:44:50,552 ERROR   MainThread:7644 [internal.py:wandb_internal():151] Internal process shutdown.
+2022-04-13 20:44:50,850 INFO    SenderThread:7644 [sender.py:finish():1078] shutting down sender
+2022-04-13 20:44:50,850 INFO    SenderThread:7644 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-04-13 20:44:50,850 INFO    HandlerThread:7644 [handler.py:finish():778] shutting down handler
+2022-04-13 20:44:51,226 INFO    SenderThread:7644 [dir_watcher.py:finish():313] scan: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files
+2022-04-13 20:44:51,227 INFO    SenderThread:7644 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\config.yaml config.yaml
+2022-04-13 20:44:51,231 INFO    SenderThread:7644 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\output.log output.log
+2022-04-13 20:44:51,234 INFO    SenderThread:7644 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\requirements.txt requirements.txt
+2022-04-13 20:44:51,247 INFO    SenderThread:7644 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\wandb-metadata.json wandb-metadata.json
+2022-04-13 20:44:51,248 INFO    SenderThread:7644 [dir_watcher.py:finish():327] scan save: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\wandb-summary.json wandb-summary.json
+2022-04-13 20:44:51,252 INFO    SenderThread:7644 [file_pusher.py:finish():145] shutting down file pusher
+2022-04-13 20:44:51,253 INFO    SenderThread:7644 [file_pusher.py:join():150] waiting for file pusher
+2022-04-13 20:44:51,287 INFO    WriterThread:7644 [datastore.py:close():281] close: d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\run-2egsxjvy.wandb
+2022-04-13 20:44:52,341 INFO    Thread-20 :7644 [upload_job.py:push():137] Uploaded file d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\wandb-summary.json
+2022-04-13 20:44:52,440 INFO    Thread-19 :7644 [upload_job.py:push():137] Uploaded file d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\requirements.txt
+2022-04-13 20:44:52,569 INFO    Thread-18 :7644 [upload_job.py:push():137] Uploaded file d:\deep_learing_work\Spynet\wandb\run-20220413_204424-2egsxjvy\files\config.yaml
+2022-04-13 20:44:53,857 INFO    MainThread:7644 [internal.py:handle_exit():82] Internal process exited

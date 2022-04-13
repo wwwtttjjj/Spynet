@@ -1,0 +1,34 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.11",
+    "heartbeatAt": "2022-04-13T04:38:01.842301",
+    "startedAt": "2022-04-13T04:37:57.142238",
+    "docker": null,
+    "gpu": "NVIDIA GeForce MX150",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9014",
+        "--control=9012",
+        "--hb=9011",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"e0568dd4-4ba2-4b31-a90a-0abcf5bd5f40\"",
+        "--shell=9013",
+        "--transport=\"tcp\"",
+        "--iopub=9015",
+        "--f=C:\\Users\\10194\\AppData\\Local\\Temp\\tmp-16328XyJ15F13HTVA.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/wwwtttjjj/deep_learning_work.git",
+        "commit": "d1ce337a72ce4048056efe63760cd5409f50e1ac"
+    },
+    "email": "1019495562@qq.com",
+    "root": "D:/deep_learing_work",
+    "host": "LAPTOP-RE0420IL",
+    "username": "10194",
+    "executable": "C:\\Users\\10194\\AppData\\Local\\Programs\\Python\\Python39\\python.exe"
+}
